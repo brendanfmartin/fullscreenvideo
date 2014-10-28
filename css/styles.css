@@ -1,0 +1,144 @@
+@import url(http://fonts.googleapis.com/css?family=Lily+Script+One);
+
+/* main tags */
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+/* universal */
+h1 {
+    font-family: 'Lily Script One', cursive;
+    ont-size: 90px;
+    line-height: 0px;
+}
+
+h2 {
+    font-family: 'Lily Script One', cursive;
+    font-size: 110px;
+    line-height: 0px;
+}
+
+
+
+/* custom universal */
+.right {
+    float: right;
+}
+
+
+/* video css */
+video#bgvid {
+    right: 0;
+    top: -225px;
+    height: 100%;
+    padding-top: 75px;
+    z-index: -100;
+    /*background: url(polina.jpg) no-repeat;*/
+    background-size: cover;
+}
+
+/* color overlay for video */
+#body_cover {
+    background-color: #292929;
+    opacity: .89;
+    position:fixed;
+    width:100%;
+    height:100%;
+    top:0px;
+    left:0px;
+    z-index:-1;
+}
+
+
+/* dot overlay for video */
+#dot_overlay {
+    background: url(http://s14.directupload.net/images/111129/44ga9qid.png);
+    height: 475px;
+    width: 100%;
+    position: fixed;
+    top: 75px;
+    z-index: -1;
+}
+
+
+/* nav bar */
+#nav_bar {
+    height: 25px;
+    width: 100%;
+    padding: 30px 0;
+    background: black;
+    z-index: 100;
+    color:white;
+    position: fixed;
+    top: 0;
+}
+
+#nav_bar .nav_links {
+    padding: 0 20px;
+    background: #171717;
+}
+
+#nav_bar .nav_links:hover {
+    background: #292929;
+    cursor: pointer;
+}
+
+#nav_bar .name {
+    font-family: 'Lily Script One', cursive;
+    font-size: 14px;
+}
+
+#nav_bar .name:nth-child(1) {
+    padding-left: 15px; 
+}
+
+
+/* candles center logo */
+#candles_main_logo {
+    width: 100%;
+    height:auto;
+    margin-top:190px;
+    z-index: 100;
+    background: transparent;
+    color:white;
+}
+
+
+#motha_fucking_candles {
+    width:400px;
+    height: 220px;
+    border: white dashed thin;
+    margin: 0 auto;
+    text-align: center;
+    background: black;
+    padding: 15px;
+}
+
+
+/* lotus design - "borrowed" from life of pi */
+.lotus {
+    width: 161px;
+    height: 47px;
+    margin: 15px auto 0px;
+    position: relative;
+    background-image: url(http://www.lifeofpimovie.com/assets/images/lotus.png);
+    background-position: -161px -141px;
+}
+
+
+#main_content {
+    width: 100%;
+    height:1000px;
+    margin-top:100px;
+    padding: 20px 0;
+    z-index: 100;
+    background: black;
+    color:white;
+}
+
